@@ -1,0 +1,51 @@
+﻿/*BWG7X-J98B3-W34RT-33B3R-JVYW9*/
+.panel_Border
+{
+    border:solid;
+    border-width:1px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.panel_Border-NoBottom { border-bottom-width:0px; }
+.panel_Border-NoLeft { border-left-width:0px; }
+.panel_Border-NoRight { border-right-width:0px; }
+.panel_Border-NoTop { border-top-width:0px; }
+
+.panel_PageContainer
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:1024px;
+}
+
+.panel_Header
+{
+    width:1024px;
+    height:96px;
+    float:left;
+    background-image:url(winterforest.png);
+    background-size:cover;
+    float:left;
+}
+
+.panel_Menu
+{
+    width:144px;
+    height:512px;
+    float:left;
+}
+
+.panel_ContentArea
+{
+    width:736px;
+    height:512px;
+    float:left;
+}
+
+.panel_Footer
+{
+    width:1024px;
+    height:16px;
+    float:left;
+}

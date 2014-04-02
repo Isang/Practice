@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="WebSite.masterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="panelStyles.css" rel="stylesheet" type="text/css" />
+    <title>Stugbyar.se</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:#a9a9a9;">
+    <form id="formPage" runat="server">
+        <asp:Panel ID="panelPageContainer" runat="server" CssClass="panel_PageContainer">
+            <asp:Panel ID="panelHeader" runat="server" CssClass="panel_Header panel_Border panel_Border-NoBottom">
+            </asp:Panel>
+            <asp:Panel ID="panelMenuLeft" runat="server" CssClass="panel_Menu panel_Border">
+            </asp:Panel>
+            <asp:Panel ID="panelContentArea" runat="server" CssClass="panel_ContentArea panel_Border panel_Border-NoRight panel_Border-NoLeft">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </asp:Panel>
+            <asp:Panel ID="panelMenuRight" runat="server" CssClass="panel_Menu panel_Border">
+            </asp:Panel>
+            <asp:Panel ID="panelFooter" runat="server" CssClass="panel_Footer panel_Border panel_Border-NoTop">
+            </asp:Panel>
+        </asp:Panel>
+    </form>
+</body>
+</html>
